@@ -365,39 +365,37 @@ font-size: 25px;
     margin-bottom: 15px;
     color: #333;
 }
-.admission-section {
-    padding: 40px;
-    background: linear-gradient(135deg, #d7edff, #ffffff);
-    text-align: center;
+body {
+  background: #eef5fb;
+  font-family: Arial, sans-serif;
 }
 
-.admission-section h1 {
-    font-size: 32px;
-    margin-bottom: 30px;
+.box {
+  background: #f8fcff;
+  padding: 30px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-.admission-box {
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    text-align: left;
-    border: 1px solid rgba(255,255,255,0.4);
+h2 {
+  color: #2b4ea2;
+  margin-bottom: 15px;
 }
 
-.admission-box h2 {
-    margin-bottom: 12px;
-    color: #2b4d8f;
+.custom-ol {
+  padding-left: 25px;   
 }
 
-.admission-box p {
-    margin: 8px 0;
-    line-height: 1.6;
+.custom-ol li {
+  margin-bottom: 12px;
+  font-size: 17px;
+  line-height: 1.6;
 }
+
+
+
 .registration-section {
     padding: 40px;
     background: linear-gradient(135deg, #d7edff, #ffffff); 
