@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Dashboard</title>
+
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#f4f6fb;
+}
+
+.header{
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    padding:20px;
+    color:white;
+    text-align:center;
+}
+
+.header h1{
+    margin:0;
+    font-size:26px;
+}
+
+.header p{
+    margin-top:5px;
+    font-size:14px;
+}
+
+.dashboard{
+    padding:30px;
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card h2{
+    font-size:18px;
+    color:#333;
+    margin-bottom:10px;
+}
+
+.card p{
+    font-size:14px;
+    color:#666;
+}
+
+.card button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#667eea;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.card button:hover{
+    background:#764ba2;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+    <h1>Welcome to Bright Path Academy 🎓</h1>
+    <p>Your learning journey starts here</p>
+</div>
+
+<div class="dashboard">
+
+    <div class="card">
+        <h2> My Courses</h2>
+        <p>View enrolled courses and start learning.</p>
+        <a href="courses.html">
+            <button class="btn">View Courses</button>
+        </a>
+    
+    </div>
+
+    <div class="card">
+        <h2>Demo Classes</h2>
+        <p>Watch free demo lectures anytime.</p>
+        <a href="demo-class.html">
+    <button class="watch-btn">Watch Now</button>
+</a>
+     
+    </div>
+
+    <div class="card">
+        <h2>FEE Structure</h2>
+        <p>your financial page is all set here..</p>
+        <a href="fees.html">
+            <button class="See-btn">See Here</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>Support</h2>
+        <p>Need help? Contact our mentors.</p>
+        <a href="contact.html">
+            <button class="cn-btn">Contact Us</button>
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
